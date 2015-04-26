@@ -109,6 +109,12 @@
   #elif _MSC_VER >= 1600 && _MSC_VER < 1700
     #define COMPILER_VER                      ".msvc10"
     #define METADATA_COMPILER_STRING          "msvc 10"
+  #elif _MSC_VER >= 1700 && _MSC_VER < 1800
+    #define COMPILER_VER                      ".msvc11"
+    #define METADATA_COMPILER_STRING          "msvc 11"
+  #elif _MSC_VER >= 1800 && _MSC_VER < 1900
+   #define COMPILER_VER                      ".msvc12"
+   #define METADATA_COMPILER_STRING          "msvc 12"
   #else
     #error Please update msvc.h to include this version of MSVC
   #endif
