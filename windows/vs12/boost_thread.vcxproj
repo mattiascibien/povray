@@ -28,13 +28,13 @@
     <ClCompile Include="..\..\libraries\boost\libs\thread\src\win32\tss_pe.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="boost_system\boost_system.vcxproj">
+    <ProjectReference Include="boost_system.vcxproj">
       <Project>{d32d7a86-adb7-4c46-9a59-01c1edcb1feb}</Project>
       <Private>false</Private>
       <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
       <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
-      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">

@@ -387,6 +387,11 @@
     <ClInclude Include="..\..\vfe\win\vfeplatform.h" />
     <ClInclude Include="..\..\vfe\vfeprecomp.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="boost_system.vcxproj">
+      <Project>{d32d7a86-adb7-4c46-9a59-01c1edcb1feb}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

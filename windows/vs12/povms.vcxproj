@@ -368,6 +368,16 @@
     <ClInclude Include="..\..\source\precomp.h" />
     <ClInclude Include="..\povconfig\syspovconfigpovms.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="boost_system.vcxproj">
+      <Project>{d32d7a86-adb7-4c46-9a59-01c1edcb1feb}</Project>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

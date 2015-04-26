@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\libraries\boost\libs\system\src\error_code.cpp">
+    <ClCompile Include="..\..\libraries\boost\libs\system\src\error_code.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

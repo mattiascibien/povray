@@ -105,7 +105,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "povparser", "povparser.vcxp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "povms", "povms.vcxproj", "{B1E68128-84D7-4525-A3C1-E6C1077F2239}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost_system", "boost_system\boost_system.vcxproj", "{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost_system", "boost_system.vcxproj", "{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -387,10 +387,12 @@ Global
 		{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}.Debug|x64.Build.0 = Debug|x64
 		{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}.Release|Win32.ActiveCfg = Release|Win32
 		{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}.Release|Win32.Build.0 = Release|Win32
-		{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}.Release|x64.ActiveCfg = Release|Win32
-		{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}.Release-SSE2|Win32.ActiveCfg = Release|Win32
-		{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}.Release-SSE2|Win32.Build.0 = Release|Win32
-		{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}.Release-SSE2|x64.ActiveCfg = Release-SSE2|Win32
+		{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}.Release|x64.ActiveCfg = Release|x64
+		{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}.Release|x64.Build.0 = Release|x64
+		{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}.Release-SSE2|Win32.ActiveCfg = Release-SSE2|Win32
+		{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}.Release-SSE2|Win32.Build.0 = Release-SSE2|Win32
+		{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}.Release-SSE2|x64.ActiveCfg = Release-SSE2|x64
+		{D32D7A86-ADB7-4C46-9A59-01C1EDCB1FEB}.Release-SSE2|x64.Build.0 = Release-SSE2|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
