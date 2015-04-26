@@ -27,6 +27,16 @@
     <ClCompile Include="..\..\libraries\boost\libs\date_time\src\gregorian\greg_month.cpp" />
     <ClCompile Include="..\..\libraries\boost\libs\date_time\src\gregorian\greg_weekday.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="boost_system\boost_system.vcxproj">
+      <Project>{d32d7a86-adb7-4c46-9a59-01c1edcb1feb}</Project>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{35A2DC31-84BC-4F7A-9C93-1D072432AD79}</ProjectGuid>
     <RootNamespace>boost_date_time</RootNamespace>
