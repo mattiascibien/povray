@@ -196,3 +196,5 @@ unix/config/config.sub
 unix/config/depcomp
 unix/config/install-sh
 unix/config/missing
+windows/vs12/bin64/
+windows/vs12/bin32/
