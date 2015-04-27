@@ -53,14 +53,14 @@
 #include <string>
 #include <vector>
 
-#include <boost/bind.hpp>
-#include <boost/format.hpp>
-#include <boost/function.hpp>
-#include <boost/functional/hash/hash.hpp>
-#include <boost/scoped_array.hpp>
-#include <boost/scoped_ptr.hpp>
-#include <boost/thread.hpp>
-#include <boost/thread/condition.hpp>
-#include <boost/tr1/memory.hpp>
-#include <boost/unordered_map.hpp>
+//#include <boost/bind.hpp>
+//#include <boost/format.hpp>
+//#include <boost/function.hpp>
+//#include <boost/functional/hash/hash.hpp>
+//#include <boost/scoped_array.hpp>
+//#include <boost/scoped_ptr.hpp>
+//#include <boost/thread.hpp>
+//#include <boost/thread/condition.hpp>
+////#include <boost/tr1/memory.hpp>
+//#include <boost/unordered_map.hpp>
 
